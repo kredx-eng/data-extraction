@@ -1,0 +1,7 @@
+This code extracts IFSC and Account Number from the image of a cheque. 
+It first pre-processes the image, then through the Google Vision API gets the JSON file of image and then from that through regex gets the IFSC and through a few possible cases finds the Account Number.
+
+In the file two changes need to be made. 
+1) Change the path of the Google Vision API Credentials file.
+2) Change the path of the image of the cheque for the data to be extracted.
+
